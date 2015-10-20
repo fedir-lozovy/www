@@ -18,5 +18,9 @@
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/fedir-lozovy/www/issues"
+  },
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7"
   }
 }

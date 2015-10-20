@@ -24,9 +24,33 @@ var app = {
 
 app.initialize();
 
-var phonecatApp = angular.module('phonecatApp', [
-    'ngRoute'
+var Salamandra = angular.module('Salamandra', [
+    'ngRoute',
+    'salamandraControllers'
 ]);
+Salamandra.config(['$routeProvider',
+    function($routeProvider) {
+        $routeProvider.
+            when('/main', {
+                templateUrl: 'templates/MainPage.html',
+                controller: 'MainPage'
+            }).
+            when('/InsuranceEventReport', {
+                templateUrl: 'templates/InsuranceEventReport.html',
+                controller: 'InsuranceEventReport'
+            }).
+            when('/eventsCalendar', {
+                templateUrl: 'templates/eventsCalendar.html',
+                controller: 'eventsCalendar'
+            }).
+            when('/photosView', {
+                templateUrl: 'templates/photosView.html',
+                controller: 'photosView'
+            }).
+            otherwise({
+                redirectTo: '/main'
+            });
+    }]);
 function init(){
 
 }
