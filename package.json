@@ -1,0 +1,22 @@
+{
+  "name": "Salamandra",
+  "version": "0.0.1",
+  "description": "Salamandra mobile app",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedir-lozovy/www.git"
+  },
+  "author": "Fedr",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/fedir-lozovy/www/issues"
+  }
+}
