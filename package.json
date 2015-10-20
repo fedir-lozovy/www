@@ -1,6 +1,6 @@
 {
   "name": "Salamandra",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Salamandra mobile app",
   "main": "index.js",
   "directories": {
